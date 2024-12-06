@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshan</title>
+    <link rel="icon" type="image/x-icon" href="1024.png">
+    <link rel="stylesheet" href="style.css ">
+</head>
+<body>
+    <div id="hero" class="HOME">
+        <video autoplay loop muted plays- inline class="back-video">
+            <source src="bg1.mp4" type="video/mp4">
+        </video>
+        <nav>
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+            <ul>
+                <li id="l1"><a href="/index.html">Home</a></li>
+                <li id="l2"><a href="/STATE.HTML">States</a></li>
+                <li id="l3"><a href="/darshan.html">Darshan</a></li>
+                <li id="l4"><a href="/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <script>
+            function toggleMenu() {
+                const navMenu = document.querySelector('nav ul');
+                navMenu.classList.toggle('active');
+            }
+        </script>
+        <div id="content">
+            <h1>INDIA</h1>
+            <a href="#explore">Explore</a>
+        </div>
+    </div>
+    <div id="explore">
+        
+        <div id="explorein">
+            <div id="head">
+                <h1 class="heading">exploring <span>India</span> <br>since <span>1947</span></h1> 
+            </div>
+            <br><br><br>
+            <div id="pattern" class="center">
+                <img src="pattern.jpeg" alt="pattern">
+            </div>
+        </div>
+        <br><br><br>
+
+        <div id="aboutdarshan" style="color:black" ><b>
+            <center>The Darshan website is a comprehensive platform designed to enrich spiritual & historical journeys and connect users with sacred destinations across the  <i>India.</i><br> It serves as a one-stop solution for discovering temples, pilgrimage sites, and other spiritual landmarks, providing detailed information,<br> historical significance, and visiting guidelines. With an intuitive interface, users can explore various locations, plan their visits, and even access features like virtual tours or <br> live-streamed darshans for remote participation The platform fosters community engagement through user reviews, <br> travel tips, and customizable itineraries, ensuring a seamless and fulfilling  experience for spiritual seekers. Whether  you are planning a pilgrimage or simply <br> exploring the cultural heritage of these sites, the Darshan website aims to be your trusted guide.</center>
+            <br><br></b>
+            <br>
+        </div>
+    
+    <section class="footer">
+        <span id="content1" class="footer">
+            <span>
+                <a href="#">Back</a>
+            </span>
+            <span>
+                <a href="/STATE.HTML">States</a>
+            </span>
+        </span>
+    </section>  
+    <footer>
+        <div class="container">
+          <p>&copy; 2024 AKGEC | All Rights Reserved @ presented by Team Darshan.</p>
+        </div>
+    </footer>  
+</body>
+</html>
